@@ -48,7 +48,7 @@ This tool is designed for developers, students, researchers, and content consume
 🔐 Fully local processing (no cloud dependency required)
 🧩 Easy to extend with custom AI models or additional tools  
 
-🧰 Tech Stack  
+## 🧰 Tech Stack  
 Backend (API)
 
 Java
@@ -64,7 +64,7 @@ JavaScript
 Chrome Manifest v3
 Side Panel + Background Service Worker  
 
-📁 Project Folder Structure  
+## 📁 Project Folder Structure  
 research-assistant/
 │── src/main/java/com/research_assistant/
 │     ├── ResearchAssistantApplication.java
@@ -83,7 +83,7 @@ research-assistant/
 │── pom.xml
 │── README.md
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Piyush Pal  
 📍 Dewas, Indore, Madhya Pradesh  
