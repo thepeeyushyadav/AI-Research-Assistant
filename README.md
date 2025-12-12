@@ -1,18 +1,18 @@
-🚀 Research Assistant – Browser Extension + Spring Boot API  
+## 🚀 Research Assistant – Browser Extension + Spring Boot API  
 A lightweight browser extension that lets you summarize any selected text on the web using a local Spring Boot backend, with the option to store summaries for later use.
 
 
-🧠 Project Overview  
+## 🧠 Project Overview  
 Research Assistant is a dual-layer project consisting of:
 1. A Chrome/Browser Extension – Detects selected text and displays summaries inside a side panel UI.
 2. A Spring Boot Backend – Processes incoming text and returns structured summarized output.
 This tool is designed for developers, students, researchers, and content consumers who need fast, distraction-free text summaries directly while browsing.
 
-🏗️ Project Architecture
+## 🏗️ Project Architecture
 <img width="388" height="316" alt="image" src="https://github.com/user-attachments/assets/d2f907d5-9e15-46e2-88e7-bce9cc15490e" />
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/bc7ee58f-98ca-4b73-9ca5-289ad6a64035" />
 
-High-Level Flow
+## High-Level Flow
 1. User selects any text on a webpage
 2. The extension’s content script captures the selection
 3. background.js sends it as a POST request to the Spring Boot API
@@ -20,7 +20,7 @@ High-Level Flow
 5. Output is displayed inside sidepanel.html
 6. User can optionally save the summary locally
 
-🔄 Data Flow Diagram  
+## 🔄 Data Flow Diagram  
 [Webpage Selected Text]
           │
           ▼
